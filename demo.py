@@ -26,12 +26,6 @@ while True:
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3'):
-        try:
-            num1 = float(input("Enter first number: "))
-            num2 = float(input("Enter second number: "))
-        except ValueError:
-            print("Invalid data. Please enter a number.")
-            continue
 
         if choice == '1':
             print(num1, "+", num2, "=", add(num1, num2))
