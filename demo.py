@@ -18,8 +18,9 @@ def divide(x, y):
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
-print("3.Divide")
-print("4.Multiply")
+print("3.Multiply")
+print("4.Divide")
+
 
 while True:
     # take input from the user
@@ -34,19 +35,19 @@ while True:
             print("Invalid input. Please enter a number.")
             continue
 
-        if choice == '1':
+        if choices == '1':
             print(num1, "+", num2, "=", add(num1, num2))
 
-        elif choice == '4':
+        elif choices == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
 
-         elif choice == '2':
+         elif choices == '2':
             print(num1, "-", num2, "=", subtract(num1, num2))
 
-        elif choice == '3':
+        elif choices == '3':
             print(num1, "*", num2, "=", multiply(num1, num2))
         
-        # check if user wants another calculation
+        # check if user wants and caluculations another calculation
         # break the while loop if answer is no
         # next_calculation = input("Let's do next calculation? (yes/no): ")
         if next_calculation == "no":
