@@ -52,4 +52,4 @@ while True:
         if next_calculation == "no":
           break
     else:
-        print("Invalid Input")
+        print(f"Not a Valid Input, Enter a Valid Input between {1} and {4}")
